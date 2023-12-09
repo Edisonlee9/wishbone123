@@ -217,7 +217,7 @@ body {
 }
 
 /* House */
-.house{
+.house {
   padding: 250px 0;
   background: url(../images/house-bg.png) no-repeat center / cover;
 }
@@ -229,18 +229,18 @@ body {
 }
 
 /* Swirling */
-.swirling{
+.swirling {
   padding: 250px 0;
   background: url(../images/swirling-bg.png) no-repeat center / cover;
 }
 
 .staircase .container .text,
-.house .container .text{
+.house .container .text {
   max-width: 285px;
   margin-left: auto;
 }
 
-.swirling .container .text{
+.swirling .container .text {
   max-width: 285px;
 }
 
@@ -261,4 +261,68 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #645c55;
+}
+
+.customer {
+  background: #403E3B;
+}
+
+.customer .container {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  gap: 132px;
+}
+
+.customer .container .left {}
+
+.customer .container .left .uptitle {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #ECE7E4;
+  font-weight: 400px;
+}
+
+.customer .container .left .title {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.customer .container .left .subtitle {
+  width: 451px;
+  font-size: 15px;
+  line-height: 24px;
+
+}
+
+
+.customer .container .left .title:hover::after {
+  content: 'hello';
+  content: 'hello';
+  color: rgb(63, 94, 251);
+  color: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  background: rgb(246, 255, 27);
+  background: linear-gradient(90deg, rgba(246, 255, 27, 1) 0%, rgba(61, 255, 0, 1) 100%);
+
+  width: 300px;
+  height: 500px;
+  gap: 300px;
+
+}
+.customer .container .left .title:hover::before {
+  content: 'hello';
+  content: 'hello';
+  color: rgb(63, 94, 251);
+  color: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  background: rgb(246, 255, 27);
+  background: linear-gradient(90deg, rgba(246, 255, 27, 1) 0%, rgba(61, 255, 0, 1) 100%);
+
+  width: 300px;
+  height: 500px;
+  gap: 300px;
+
 }

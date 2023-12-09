@@ -44,12 +44,31 @@
   .hero .left .btn {
     background: #000;
     color: white;
+
+
+  
   }
 
   .firm .container {
     gap: 80px;
   }
-}
+
+  .customer .container{
+    /* margin-top: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .customer .container .left .uptitle{
+    margin-top: 30px;
+  }
+
+
+  }
+
 
 /* 770px */
 @media (max-width: 770px) {
@@ -119,6 +138,10 @@
 @media (max-width: 430px) {
   .hero .left {
     padding: 40px 15px;
+  }
+
+  .customer .container .left .subtitle{
+    width: 300px;
   }
 }
 
